@@ -14,6 +14,6 @@ LOCAL_MODULE_PATH := $(TARGET_OUT_SHARED_LIBRARIES)/hw
 LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_SRC_FILES := copybit.cpp
 LOCAL_MODULE := copybit.mooncake
-LOCAL_C_INCLUDES += device/zte/mooncake/libgralloc
+LOCAL_C_INCLUDES += device/zte/mooncake-common/libgralloc
 LOCAL_CFLAGS += -DCOPYBIT_MSM7K=1
 include $(BUILD_SHARED_LIBRARY)
