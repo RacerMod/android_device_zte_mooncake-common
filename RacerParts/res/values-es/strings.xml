@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Ajustes ZTE Racer</string>
+
+        <string name="screen_calibration_title_head">Calibración de Pantalla</string>
+        <string name="screen_calibration_summary_head">Calibrar pantalla táctil</string>
+
+        <string name="gesture_pressure_title_head">Presión de gestos</string>
+        <string name="gesture_pressure_summary_head">Presión necesitada para activar la emulación de gestos</string>
+
+        <string name="gesture_blindspot_title_head">Punto ciego de gestos</string>
+        <string name="gesture_blindspot_summary_head">Punto ciego entre un toque y la emulación de gestos</string>
+
+        <string name="usb_charging_title_head">Carga vía USB</string>
+        <string name="usb_charging_summary_head">Habilitar/Deshabilitar carga vía USB</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">Ρυθμίσεις ZTE Racer</string>
+
+        <string name="screen_calibration_title_head">Βαθμονόμηση οθόνης αφής</string>
+        <string name="screen_calibration_summary_head">Βαθμονομήστε την οθόνη αφής</string>
+
+        <string name="gesture_pressure_title_head">Πίεση χειρονομίας</string>
+        <string name="gesture_pressure_summary_head">Η πίεση που απαιτείται για την εξομοίωση χειρονομίας</string>
+
+        <string name="gesture_blindspot_title_head">Τυφλό σημείο χειρονομίας</string>
+        <string name="gesture_blindspot_summary_head">Τυφλό σημείο μεταξύ απλού αγγίγματος και εξομοίωσης χειρονομιας.</string>
+
+        <string name="usb_charging_title_head">Φόρτιση μέσω USB</string>
+        <string name="usb_charging_summary_head">Ενεργοποίηση/Απενεργοποίηση</string>
+</resources>

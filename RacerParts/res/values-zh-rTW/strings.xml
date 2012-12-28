@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="app_name">ZTE Racer 設定</string>
+
+        <string name="screen_calibration_title_head">螢幕校準</string>
+        <string name="screen_calibration_summary_head">校準觸控螢幕</string>
+
+        <string name="gesture_pressure_title_head">手勢壓力</string>
+        <string name="gesture_pressure_summary_head">引發手勢觀測所需施加的壓力</string>
+
+        <string name="gesture_blindspot_title_head">手勢盲點</string>
+        <string name="gesture_blindspot_summary_head">單次觸控與手勢觀測之間的盲點</string>
+
+        <string name="usb_charging_title_head">USB 充電</string>
+        <string name="usb_charging_summary_head">啟用／停用充電</string>
+</resources>

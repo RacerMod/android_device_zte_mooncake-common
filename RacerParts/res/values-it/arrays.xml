@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="gesture_pressure_array">
+      <item>Molto debole</item>
+      <item>Debole</item>
+      <item>Normale</item>
+      <item>Forte</item>
+      <item>Molto forte</item>
+      <item>Non attiva</item>
+   </string-array>
+
+   <string-array name="gesture_blindspot_array">
+      <item>Molto piccolo</item>
+      <item>Piccolo</item>
+      <item>Normale</item>
+      <item>Grande</item>
+      <item>Molto grande</item>
+      <item>Non attiva</item>
+   </string-array>
+</resources>

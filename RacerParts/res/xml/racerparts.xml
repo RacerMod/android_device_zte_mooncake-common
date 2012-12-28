@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Screen calibration -->
+    <PreferenceScreen 
+        android:key="screen_calibration"
+        android:title="@string/screen_calibration_title_head"
+        android:summary="@string/screen_calibration_summary_head">
+        <intent android:action="android.intent.action.MAIN"
+            android:targetPackage="com.cyanogenmod.RacerParts"
+            android:targetClass="com.cyanogenmod.RacerParts.RacerPartsCalibration" />
+    </PreferenceScreen>
+
+    <!-- Gesture emulation tuning -->
+    <ListPreference
+	android:key="gesture_pressure"
+        android:title="@string/gesture_pressure_title_head"
+	android:summary="@string/gesture_pressure_summary_head"
+	android:defaultValue="1375"
+	android:entries="@array/gesture_pressure_array"
+	android:entryValues="@array/gesture_pressure_values" />
+    <ListPreference
+	android:key="gesture_blindspot"
+        android:title="@string/gesture_blindspot_title_head"
+	android:summary="@string/gesture_blindspot_summary_head"
+	android:defaultValue="30"
+	android:entries="@array/gesture_blindspot_array"
+	android:entryValues="@array/gesture_blindspot_values" />
+
+    <!-- USB Charging -->
+    <CheckBoxPreference
+	android:key="usb_charging"
+        android:title="@string/usb_charging_title_head"
+	android:summary="@string/usb_charging_summary_head"
+	android:defaultValue="true" />
+
+</PreferenceScreen>

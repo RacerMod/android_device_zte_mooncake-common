@@ -1,0 +1,73 @@
+# Atheros
+bin/hostapd
+bin/hci_qcomm_init
+
+# EGL
+lib/egl/libEGL_adreno200.so
+lib/egl/libGLESv2_adreno200.so
+lib/egl/libGLESv1_CM_adreno200.so
+lib/egl/libq3dtools_adreno200.so
+lib/libgsl.so
+etc/firmware/yamato_pfp.fw
+etc/firmware/yamato_pm4.fw
+
+# RIL
+bin/qmuxd
+lib/libril-qc-1.so
+lib/libril-qcril-hook-oem.so
+lib/libdiag.so
+lib/liboncrpc.so
+lib/libqmi.so
+lib/libdsm.so
+lib/libqueue.so
+lib/libdll.so
+lib/libcm.so
+lib/libmmgsdilib.so
+lib/libgsdi_exp.so
+lib/libgstk_exp.so
+lib/libwms.so
+lib/libnv.so
+lib/libwmsts.so
+lib/libpbmlib.so
+lib/libdss.so
+lib/libauth.so
+
+# GPS
+lib/libloc.so
+lib/libloc-rpc.so
+lib/libcommondefs.so
+
+# Camera
+lib/liboemcamera.so
+lib/libmmjpeg.so
+lib/libmmipl.so
+
+# OMX
+lib/libOmxEvrcEnc.so
+lib/libOmxAacDec.so
+lib/libOmxWmvDec.so
+lib/libOmxQcelpDec.so
+lib/libOmxAmrEnc.so
+lib/libOmxAdpcmDec.so
+lib/libOmxEvrcDec.so
+lib/libOmxH264Dec.so
+lib/libOmxAmrDec.so
+lib/libOmxAmrwbDec.so
+lib/libOmxWmaDec.so
+lib/libOmxQcelp13Enc.so
+lib/libOmxMp3Dec.so
+lib/libOmxMpeg4Dec.so
+lib/libOmxVidEnc.so
+lib/libOmxAmrRtpDec.so
+lib/libOmxAacEnc.so
+lib/libmm-adspsvc.so
+lib/libomx_aacdec_sharedlibrary.so
+lib/libomx_amrdec_sharedlibrary.so
+lib/libomx_amrenc_sharedlibrary.so
+lib/libomx_avcdec_sharedlibrary.so
+lib/libomx_m4vdec_sharedlibrary.so
+lib/libomx_mp3dec_sharedlibrary.so
+lib/libomx_sharedlibrary.so
+
+# Gralloc
+lib/hw/gralloc.mooncake.so
