@@ -1,36 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <string-array name="gesture_pressure_array">
-      <item>Lowest</item>
-      <item>Low</item>
-      <item>Normal</item>
-      <item>High</item>
-      <item>Highest</item>
-      <item>Disabled</item>
-   </string-array>
-   <string-array name="gesture_pressure_values">
-      <item>1175</item>
-      <item>1275</item>
-      <item>1375</item>
-      <item>1475</item>
-      <item>1575</item>
-      <item>20000</item>
-   </string-array>
+    <string-array name="gesture_pressure_array">
+        <item>Lowest</item>
+        <item>Low</item>
+        <item>Normal</item>
+        <item>High</item>
+        <item>Highest</item>
+        <item>Disabled</item>
+    </string-array>
 
-   <string-array name="gesture_blindspot_array">
-      <item>Smallest</item>
-      <item>Small</item>
-      <item>Normal</item>
-      <item>Large</item>
-      <item>Largest</item>
-      <item>Disabled</item>
-   </string-array>
-   <string-array name="gesture_blindspot_values">
-      <item>10</item>
-      <item>15</item>
-      <item>30</item>
-      <item>60</item>
-      <item>120</item>
-      <item>0</item>
-   </string-array>
+    <string-array name="gesture_pressure_values">
+        <item>1175</item>
+        <item>1275</item>
+        <item>1375</item>
+        <item>1475</item>
+        <item>1575</item>
+        <item>20000</item>
+    </string-array>
+
+    <string-array name="gesture_blindspot_array">
+        <item>Smallest</item>
+        <item>Small</item>
+        <item>Normal</item>
+        <item>Large</item>
+        <item>Largest</item>
+        <item>Disabled</item>
+    </string-array>
+
+    <string-array name="gesture_blindspot_values">
+        <item>10</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>120</item>
+        <item>0</item>
+    </string-array>
 </resources>

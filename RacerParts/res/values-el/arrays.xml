@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <string-array name="gesture_pressure_array">
-      <item>Πολύ μικρή</item>
-      <item>Μικρή</item>
-      <item>Κανονική</item>
-      <item>Μεγάλη</item>
-      <item>Πολύ μεγάλη</item>
-      <item>Απενεργοποίηση</item>
-   </string-array>
+    <string-array name="gesture_pressure_array">
+        <item>Πολύ μικρή</item>
+        <item>Μικρή</item>
+        <item>Κανονική</item>
+        <item>Μεγάλη</item>
+        <item>Πολύ μεγάλη</item>
+        <item>Απενεργοποίηση</item>
+    </string-array>
 
-   <string-array name="gesture_blindspot_array">
-      <item>Μικρότερο</item>
-      <item>Μικρό</item>
-      <item>Κανονικό</item>
-      <item>Μεγάλο</item>
-      <item>Μεγαλύτερο</item>
-      <item>Απενεργοποίηση</item>
-   </string-array>
+    <string-array name="gesture_blindspot_array">
+        <item>Μικρότερο</item>
+        <item>Μικρό</item>
+        <item>Κανονικό</item>
+        <item>Μεγάλο</item>
+        <item>Μεγαλύτερο</item>
+        <item>Απενεργοποίηση</item>
+    </string-array>
 </resources>

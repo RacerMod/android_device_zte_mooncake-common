@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <string name="app_name">Impostazioni ZTE Racer</string>
+    <string name="app_name">Impostazioni ZTE Racer</string>
 
-        <string name="screen_calibration_title_head">Calibrazione schermo</string>
-        <string name="screen_calibration_summary_head">Calibra il touchscreen</string>
+    <string name="screen_calibration_title_head">Calibrazione schermo</string>
+    <string name="screen_calibration_summary_head">Calibra il touchscreen</string>
 
-        <string name="gesture_pressure_title_head">Pressione gesture</string>
-        <string name="gesture_pressure_summary_head">Pressione necessaria per attivare l\'emulazione di una gesture</string>
+    <string name="gesture_pressure_title_head">Pressione gesture</string>
+    <string name="gesture_pressure_summary_head">Pressione necessaria per attivare l\'emulazione di una gesture</string>
 
-        <string name="gesture_blindspot_title_head">Intervallo Gesture</string>
-        <string name="gesture_blindspot_summary_head">Intervallo di tempo disponibile tra un tocco singolo e l\'emulazione di una gesture</string>
+    <string name="gesture_blindspot_title_head">Intervallo Gesture</string>
+    <string name="gesture_blindspot_summary_head">Intervallo di tempo disponibile tra un tocco singolo e l\'emulazione di una gesture</string>
 
-        <string name="usb_charging_title_head">Caricamento USB</string>
-        <string name="usb_charging_summary_head">Attiva/Disattiva caricamento</string>
+    <string name="usb_charging_title_head">Caricamento USB</string>
+    <string name="usb_charging_summary_head">Attiva/Disattiva caricamento</string>
 </resources>

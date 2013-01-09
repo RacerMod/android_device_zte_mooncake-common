@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-   <string-array name="gesture_pressure_array">
-      <item>Mas bajo</item>
-      <item>Bajo</item>
-      <item>Normal</item>
-      <item>Alto</item>
-      <item>Mas alto</item>
-      <item>Desactivado</item>
-   </string-array>
+    <string-array name="gesture_pressure_array">
+        <item>Mas bajo</item>
+        <item>Bajo</item>
+        <item>Normal</item>
+        <item>Alto</item>
+        <item>Mas alto</item>
+        <item>Desactivado</item>
+    </string-array>
 
-   <string-array name="gesture_blindspot_array">
-      <item>Mas pequeño</item>
-      <item>Pequeño</item>
-      <item>Normal</item>
-      <item>Largo</item>
-      <item>Mas largo</item>
-      <item>Desactivado</item>
-   </string-array>
+    <string-array name="gesture_blindspot_array">
+        <item>Mas pequeño</item>
+        <item>Pequeño</item>
+        <item>Normal</item>
+        <item>Largo</item>
+        <item>Mas largo</item>
+        <item>Desactivado</item>
+    </string-array>
 </resources>
