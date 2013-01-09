@@ -44,6 +44,8 @@ public class RacerPartsCalibration extends Activity {
         final int yoffset = readValue("yoffset");
         final int xscale = readValue("xscale");
         final int yscale = readValue("yscale");
+        final int xymix = readValue("xymix");
+        final int yxmix = readValue("yxmix");
 
         view = new View(this) {
 
@@ -94,26 +96,30 @@ public class RacerPartsCalibration extends Activity {
                     new_yoffset += 50*65536-rawy1*new_yscale;
                     new_yoffset += 270*65536-rawy2*new_yscale;
                     new_yoffset /= 2;
+                    int new_xymix = -76;
+                    int new_yxmix = 119;
                     // Pass new calibration to kernel
                     writeValue("xoffset", new_xoffset);
                     writeValue("yoffset", new_yoffset);
                     writeValue("xscale", new_xscale);
                     writeValue("yscale", new_yscale);
+                    writeValue("xymix", new_xymix);
+                    writeValue("yxmix", new_yxmix);
                     // Save calibration data to /data/system/pointercal
                     StringBuilder sb = new StringBuilder();
                     sb.append(new_xscale);
                     sb.append(" ");
-	            sb.append(0);
+                    sb.append(new_xymix);
                     sb.append(" ");
-	            sb.append(new_xoffset);
+                    sb.append(new_xoffset);
                     sb.append(" ");
-	            sb.append(0);
+                    sb.append(new_yxmix);
                     sb.append(" ");
-	            sb.append(new_yscale);
+                    sb.append(new_yscale);
                     sb.append(" ");
-	            sb.append(new_yoffset);
+                    sb.append(new_yoffset);
                     sb.append(" ");
-	            sb.append(65536);
+                    sb.append(65536);
 
                     try {
                         FileOutputStream fos = new FileOutputStream(new File("/data/system/pointercal"));

@@ -17,7 +17,7 @@ import java.util.StringTokenizer;
 public class RacerPartsStartup extends BroadcastReceiver
 {
     private boolean hasdata = false;
-    private int xoffset, yoffset, xscale, yscale;
+    private int xoffset, yoffset, xscale, yscale, xymix, yxmix;
 
     private void loadCalData() {
         try {
@@ -29,17 +29,17 @@ public class RacerPartsStartup extends BroadcastReceiver
                 StringTokenizer st = new StringTokenizer(readString, " ");
 	        xscale = Integer.parseInt(st.nextToken());
 	        if(!st.hasMoreTokens()) return;
-	        int temp = Integer.parseInt(st.nextToken());
+	        xymix = Integer.parseInt(st.nextToken());
 	        if(!st.hasMoreTokens()) return;
 	        xoffset = Integer.parseInt(st.nextToken());
 	        if(!st.hasMoreTokens()) return;
-	        temp = Integer.parseInt(st.nextToken());
+	        yxmix = Integer.parseInt(st.nextToken());
 	        if(!st.hasMoreTokens()) return;
 	        yscale = Integer.parseInt(st.nextToken());
 	        if(!st.hasMoreTokens()) return;
 	        yoffset = Integer.parseInt(st.nextToken());
 	        if(!st.hasMoreTokens()) return;
-	        temp = Integer.parseInt(st.nextToken().trim());
+	        int temp = Integer.parseInt(st.nextToken().trim());
                 hasdata = true;
             }
             fis.close();
@@ -73,6 +73,8 @@ public class RacerPartsStartup extends BroadcastReceiver
             writeValue("/sys/module/msm_ts/parameters/tscal_yoffset",yoffset);
             writeValue("/sys/module/msm_ts/parameters/tscal_xscale",xscale);
             writeValue("/sys/module/msm_ts/parameters/tscal_yscale",yscale);
+            writeValue("/sys/module/msm_ts/parameters/tscal_yscale",xymix);
+            writeValue("/sys/module/msm_ts/parameters/tscal_yscale",yxmix);
         }
         // Gesture emulation
         SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
