@@ -73,5 +73,4 @@ BOARD_FLASH_BLOCK_SIZE := 131072
 
 # Recovery
 BOARD_LDPI_RECOVERY := true
-TARGET_PREBUILT_RECOVERY_KERNEL := device/zte/mooncake-common/recovery/recovery_kernel
 BOARD_CUSTOM_RECOVERY_KEYMAPPING := ../../device/zte/mooncake-common/recovery/recovery_ui.c
