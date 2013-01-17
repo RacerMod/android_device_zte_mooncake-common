@@ -1,7 +1,7 @@
 /*
  * Copyright (C) 2008 The Android Open Source Project
  * Copyright (C) 2011 Diogo Ferreira <defer@cyanogenmod.com>
- * Copyright (C) 2011 The CyanogenMod Project <http://www.cyanogenmod.com>
+ * Copyright (C) 2011-2013 The CyanogenMod Project <http://www.cyanogenmod.com>
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.

@@ -1,27 +1,28 @@
 /*
-** Copyright 2008, Google Inc.
-** Copyright (c) 2009, Code Aurora Forum. All rights reserved.
-** Copyright (c) 2010, Ricardo Cerqueira
-**
-** Licensed under the Apache License, Version 2.0 (the "License");
-** you may not use this file except in compliance with the License.
-** You may obtain a copy of the License at
-**
-**     http://www.apache.org/licenses/LICENSE-2.0
-**
-** Unless required by applicable law or agreed to in writing, software
-** distributed under the License is distributed on an "AS IS" BASIS,
-** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-** See the License for the specific language governing permissions and
-** limitations under the License.
-**
-** NOTICE - (RC)
-**
-** All alterations done to this file to add support for the Z71 terminal
-** are intended for use with CyanogenMod. This includes all the support
-** for ov5642, and the reverse engineered bits like ioctls and EXIF.
-** Please do not change the EXIF header without asking me first.
-*/
+ * Copyright (C) 2008 Google Inc.
+ * Copyright (C) 2009 Code Aurora Forum. All rights reserved.
+ * Copyright (C) 2010 Ricardo Cerqueira
+ * Copyright (C) 2011-2013 The CyanogenMod Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ *
+ * NOTICE - (RC)
+ *
+ * All alterations done to this file to add support for the Z71 terminal
+ * are intended for use with CyanogenMod. This includes all the support
+ * for ov5642, and the reverse engineered bits like ioctls and EXIF.
+ * Please do not change the EXIF header without asking me first.
+ */
 
 //#define LOG_NDEBUG 0
 #define LOG_NIDEBUG 0
