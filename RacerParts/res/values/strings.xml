@@ -5,9 +5,6 @@
     <string name="screen_calibration_title_head">Screen calibration</string>
     <string name="screen_calibration_summary_head">Calibrate touchscreen</string>
 
-    <string name="dual_touch_title_head">Dual touch</string>
-    <string name="dual_touch_summary_head">Enable fake dual touch</string>
-
     <string name="gesture_pressure_title_head">Gesture pressure</string>
     <string name="gesture_pressure_summary_head">Pressure needed to activate gesture emulation</string>
 

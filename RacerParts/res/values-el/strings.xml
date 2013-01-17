@@ -5,9 +5,6 @@
     <string name="screen_calibration_title_head">Βαθμονόμηση οθόνης αφής</string>
     <string name="screen_calibration_summary_head">Βαθμονομήστε την οθόνη αφής</string>
 
-    <string name="dual_touch_title_head">Dual touch</string>
-    <string name="dual_touch_summary_head">Ενεργοποίηση fake dual touch</string>
-
     <string name="gesture_pressure_title_head">Πίεση χειρονομίας</string>
     <string name="gesture_pressure_summary_head">Η πίεση που απαιτείται για την εξομοίωση χειρονομίας</string>
 

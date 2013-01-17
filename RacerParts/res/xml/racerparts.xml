@@ -11,13 +11,6 @@
             android:targetClass="com.cyanogenmod.RacerParts.RacerPartsCalibration" />
     </PreferenceScreen>
 
-    <!-- Dual touch module
-    <CheckBoxPreference
-        android:key="dual_touch"
-        android:title="@string/dual_touch_title_head"
-        android:summary="@string/dual_touch_summary_head"
-        android:defaultValue="false" /> -->
-
     <!-- Gesture emulation tuning -->
     <ListPreference
         android:key="gesture_pressure"
