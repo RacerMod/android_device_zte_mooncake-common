@@ -1,5 +1,6 @@
 /*
  * Copyright (C) 2009 The Android Open Source Project
+ * Copyright (C) 2012-2013 The CyanogenMod Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -69,9 +70,11 @@ int device_handle_key(int key_code, int visible) {
                     return GO_BACK;
                 break;
 
-	    case KEY_HOME:
+            case KEY_SEND:
+            case KEY_HOME:
                 return SELECT_ITEM;
 
+            case KEY_END:
             case KEY_BACK:
                 if (!get_allow_toggle_display())
                     return GO_BACK;
