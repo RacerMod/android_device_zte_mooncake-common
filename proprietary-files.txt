@@ -1,73 +1,73 @@
 # Atheros
-bin/hostapd
-bin/hci_qcomm_init
+system/bin/hostapd
+system/bin/hci_qcomm_init
 
 # EGL
-lib/egl/libEGL_adreno200.so
-lib/egl/libGLESv2_adreno200.so
-lib/egl/libGLESv1_CM_adreno200.so
-lib/egl/libq3dtools_adreno200.so
-lib/libgsl.so
-etc/firmware/yamato_pfp.fw
-etc/firmware/yamato_pm4.fw
+system/lib/egl/libEGL_adreno200.so
+system/lib/egl/libGLESv2_adreno200.so
+system/lib/egl/libGLESv1_CM_adreno200.so
+system/lib/egl/libq3dtools_adreno200.so
+system/lib/libgsl.so
+system/etc/firmware/yamato_pfp.fw
+system/etc/firmware/yamato_pm4.fw
 
 # RIL
-bin/qmuxd
-lib/libril-qc-1.so
-lib/libril-qcril-hook-oem.so
-lib/libdiag.so
-lib/liboncrpc.so
-lib/libqmi.so
-lib/libdsm.so
-lib/libqueue.so
-lib/libdll.so
-lib/libcm.so
-lib/libmmgsdilib.so
-lib/libgsdi_exp.so
-lib/libgstk_exp.so
-lib/libwms.so
-lib/libnv.so
-lib/libwmsts.so
-lib/libpbmlib.so
-lib/libdss.so
-lib/libauth.so
+system/bin/qmuxd
+system/lib/libril-qc-1.so
+system/lib/libril-qcril-hook-oem.so
+system/lib/libdiag.so
+system/lib/liboncrpc.so
+system/lib/libqmi.so
+system/lib/libdsm.so
+system/lib/libqueue.so
+system/lib/libdll.so
+system/lib/libcm.so
+system/lib/libmmgsdilib.so
+system/lib/libgsdi_exp.so
+system/lib/libgstk_exp.so
+system/lib/libwms.so
+system/lib/libnv.so
+system/lib/libwmsts.so
+system/lib/libpbmlib.so
+system/lib/libdss.so
+system/lib/libauth.so
 
 # GPS
-lib/libloc.so
-lib/libloc-rpc.so
-lib/libcommondefs.so
+system/lib/libloc.so
+system/lib/libloc-rpc.so
+system/lib/libcommondefs.so
 
 # Camera
-lib/liboemcamera.so
-lib/libmmjpeg.so
-lib/libmmipl.so
+system/lib/liboemcamera.so
+system/lib/libmmjpeg.so
+system/lib/libmmipl.so
 
 # OMX
-lib/libOmxEvrcEnc.so
-lib/libOmxAacDec.so
-lib/libOmxWmvDec.so
-lib/libOmxQcelpDec.so
-lib/libOmxAmrEnc.so
-lib/libOmxAdpcmDec.so
-lib/libOmxEvrcDec.so
-lib/libOmxH264Dec.so
-lib/libOmxAmrDec.so
-lib/libOmxAmrwbDec.so
-lib/libOmxWmaDec.so
-lib/libOmxQcelp13Enc.so
-lib/libOmxMp3Dec.so
-lib/libOmxMpeg4Dec.so
-lib/libOmxVidEnc.so
-lib/libOmxAmrRtpDec.so
-lib/libOmxAacEnc.so
-lib/libmm-adspsvc.so
-lib/libomx_aacdec_sharedlibrary.so
-lib/libomx_amrdec_sharedlibrary.so
-lib/libomx_amrenc_sharedlibrary.so
-lib/libomx_avcdec_sharedlibrary.so
-lib/libomx_m4vdec_sharedlibrary.so
-lib/libomx_mp3dec_sharedlibrary.so
-lib/libomx_sharedlibrary.so
+system/lib/libOmxEvrcEnc.so
+system/lib/libOmxAacDec.so
+system/lib/libOmxWmvDec.so
+system/lib/libOmxQcelpDec.so
+system/lib/libOmxAmrEnc.so
+system/lib/libOmxAdpcmDec.so
+system/lib/libOmxEvrcDec.so
+system/lib/libOmxH264Dec.so
+system/lib/libOmxAmrDec.so
+system/lib/libOmxAmrwbDec.so
+system/lib/libOmxWmaDec.so
+system/lib/libOmxQcelp13Enc.so
+system/lib/libOmxMp3Dec.so
+system/lib/libOmxMpeg4Dec.so
+system/lib/libOmxVidEnc.so
+system/lib/libOmxAmrRtpDec.so
+system/lib/libOmxAacEnc.so
+system/lib/libmm-adspsvc.so
+system/lib/libomx_aacdec_sharedlibrary.so
+system/lib/libomx_amrdec_sharedlibrary.so
+system/lib/libomx_amrenc_sharedlibrary.so
+system/lib/libomx_avcdec_sharedlibrary.so
+system/lib/libomx_m4vdec_sharedlibrary.so
+system/lib/libomx_mp3dec_sharedlibrary.so
+system/lib/libomx_sharedlibrary.so
 
 # Gralloc
-lib/hw/gralloc.mooncake.so
+system/lib/hw/gralloc.mooncake.so

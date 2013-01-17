@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # Use the non-open-source parts, if they're present
--include vendor/zte/mooncake-common/BoardConfigVendor.mk
+-include vendor/zte/mooncake-common/BoardConfigCommonVendor.mk
 
 # CPU
 TARGET_CPU_ABI := armeabi-v6l
