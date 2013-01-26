@@ -38,6 +38,7 @@ PRODUCT_PACKAGES += \
     Development \
     Term \
     copybit.mooncake \
+    gralloc.mooncake \
     gps.mooncake \
     lights.mooncake \
     libOmxCore \
@@ -123,6 +124,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.setupwizard.enable_bypass=1 \
     ro.media.dec.jpeg.memcap=20000000 \
     ro.opengles.version=131072 \
-    ro.compcache.default=0 \
-    debug.sf.hw=0 \
-    persist.sys.rotationanimation=false
+    ro.compcache.default=0
