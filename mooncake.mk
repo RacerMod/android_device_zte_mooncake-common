@@ -13,7 +13,7 @@
 # limitations under the License.
 
 # proprietary side of the device
-$(call inherit-product-if-exists, vendor/zte/mooncake-common/mooncake-common-vendor.mk)
+$(call inherit-product-if-exists, vendor/zte/mooncake-common/common-vendor.mk)
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
